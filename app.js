@@ -15,7 +15,10 @@ app.use(cookieParser());
 // CORS MIDDLEWARE
 app.use(
   cors({
-    origin: ["http://localhost:3000"],
+    origin: [
+      "http://localhost:3000",
+      "https://thankful-lamb-woolens.cyclic.app",
+    ],
     credentials: true,
   })
 );
