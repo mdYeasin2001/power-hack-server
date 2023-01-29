@@ -15,10 +15,7 @@ app.use(cookieParser());
 // CORS MIDDLEWARE
 app.use(
   cors({
-    origin: [
-      "http://localhost:3000",
-      "https://thankful-lamb-woolens.cyclic.app",
-    ],
+    origin: ["http://localhost:3000", "https://power-hack-steel.vercel.app"],
     credentials: true,
   })
 );
